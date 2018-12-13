@@ -13,6 +13,7 @@
 		82956D7221C265660016EB03 /* coursework_4641492_calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82956D7021C265660016EB03 /* coursework_4641492_calculator.xcdatamodeld */; };
 		82956D7421C265670016EB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82956D7321C265670016EB03 /* Assets.xcassets */; };
 		82956D7721C265670016EB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82956D7521C265670016EB03 /* LaunchScreen.storyboard */; };
+		82956D7F21C292F30016EB03 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82956D7E21C292F30016EB03 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82956D7321C265670016EB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82956D7621C265670016EB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82956D7821C265670016EB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82956D7E21C292F30016EB03 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				82956D7521C265670016EB03 /* LaunchScreen.storyboard */,
 				82956D7821C265670016EB03 /* Info.plist */,
 				82956D7021C265660016EB03 /* coursework_4641492_calculator.xcdatamodeld */,
+				82956D7E21C292F30016EB03 /* ButtonExtension.swift */,
 			);
 			path = "coursework-4641492-calculator";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82956D6C21C265660016EB03 /* ViewController.swift in Sources */,
+				82956D7F21C292F30016EB03 /* ButtonExtension.swift in Sources */,
 				82956D7221C265660016EB03 /* coursework_4641492_calculator.xcdatamodeld in Sources */,
 				82956D6A21C265660016EB03 /* AppDelegate.swift in Sources */,
 			);

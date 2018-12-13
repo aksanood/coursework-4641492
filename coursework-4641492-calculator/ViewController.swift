@@ -19,13 +19,14 @@ class ViewController: UIViewController {
     
     //Buttons for numbers (0 to 9)
     @IBAction func numberArray(_ sender: UIButton) {
-        
+        sender.animate();
         //checks if the user presses an operator. if true then prints the operator in to the screen
         if performingOperations == true
         {
             outputLabel.text = String(sender.tag-1);
             numonScreen = Double(outputLabel.text!)!;
             performingOperations = false;
+            
         }
         
         else
@@ -33,13 +34,14 @@ class ViewController: UIViewController {
             //insert text to the output array
             outputLabel.text = outputLabel.text! + String(sender.tag-1)
             numonScreen = Double(outputLabel.text!)!
+            
         }
         
     }
     
     //Buttons for operations (-,+,*,/,=,c)
     @IBAction func operations(_ sender: UIButton) {
-        
+        sender.animate();
         if outputLabel.text != "" && sender.tag != 11 && sender.tag != 16
         {
             previousNum = Double(outputLabel.text!)!;
@@ -108,7 +110,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
 }
 
